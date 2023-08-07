@@ -8,7 +8,7 @@ public with sharing class SeeAllDataTest {
     }
 
     @isTest
-    static void static coid contactTest(){
+    static void  contactTest(){
         Account acc = new Account(Name='TestAccnt', Industry='Education', Rating='Hot', Phone='999-1112');
         insert acc;
         List<Contact> contactList = [Select Id, Name, Email, Phone From Contact LIMIT 1];
