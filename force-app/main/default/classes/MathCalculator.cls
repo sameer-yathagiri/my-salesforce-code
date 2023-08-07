@@ -5,6 +5,7 @@ public class MathCalculator {
         num1 = 2;
         num2 = 3;
     }
+    @TestVisible
     private static Integer add(Integer i1, Integer i2){
         return i1+i2;
     }
