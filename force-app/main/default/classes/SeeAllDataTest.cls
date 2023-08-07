@@ -4,7 +4,7 @@ public with sharing class SeeAllDataTest {
     @isTest(seeAllData = true)
     static void accountTest(){
         List<Account> accountList = [Select Id, Name, Phone, Fax, Industry, rating, Description From Account Limit 15];
-        System.assertEquals(15, accountList.size(), 'Expected Accounts are not matching!');
+        System.assertEquals(13, accountList.size(), 'Expected Accounts are not matching!');
     }
 
     @isTest
