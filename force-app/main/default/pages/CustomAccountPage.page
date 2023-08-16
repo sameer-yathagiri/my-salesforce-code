@@ -2,6 +2,8 @@
     <apex:pageBlock title="My Accounts">
         <apex:pageBlockTable value="{!accountList}" var="item">
             <apex:column value="{!item.Name}"/>
+            <apex:column value="{!item.Id}"/>
+            <apex:column value="{!item.Website}"/>
         </apex:pageBlockTable>
     </apex:pageBlock>
 
