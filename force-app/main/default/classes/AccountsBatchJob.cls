@@ -1,4 +1,4 @@
-    global class AccountsBatchJob implements Database.Batchable<Sobject>, Database.Stateful {
+global class AccountsBatchJob implements Database.Batchable<Sobject>, Database.Stateful {
         
         private Integer magicNum = 0;
 

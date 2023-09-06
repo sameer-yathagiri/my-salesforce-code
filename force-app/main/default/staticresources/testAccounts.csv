@@ -1,0 +1,4 @@
+﻿Name,Website,Phone,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry
+sForceTest1,http://www.sforcetest2.com,(61) 123-4567,A street,B city,C state,2111,Australia
+sForceTest2,http://www.sforcetest1.com,(61) 123-4568,A street,B city,C state,2111,Australia
+sForceTest3,http://www.sforcetest3.com,(61) 123-4569,A street,B city,C state,2111,Australia

@@ -1,8 +1,8 @@
 <apex:page controller="CalculatorController">
     <h1>This is a Calculator</h1><br/><br/>
-    <apex:form>
-        <div><apex:inputText label = "First Number" value ="{!firstNum}"/><br/><br/>
-            <apex:inputText label = "Second Number" value ="{!secondNum}"/></div>
+    <apex:form >
+        <div><apex:inputText label="First Number" value="{!firstNum}"/><br/><br/>
+            <apex:inputText label="Second Number" value="{!secondNum}"/></div>
         <div>
             <br/><br/>
         <apex:commandButton value="Add" action="{!add}" reRender="pgblck"/>

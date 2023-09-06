@@ -1,7 +1,7 @@
-<apex:page>
+<apex:page >
 <!-- Begin Default Content REMOVE THIS -->
 <h1>Hello Everyone..!!<br/>
-   From:  {!$User.Firstname}
+   From:  {!$User.FirstName}
 
 </h1>
 <!-- End Default Content REMOVE THIS -->
